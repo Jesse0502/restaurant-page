@@ -3,5 +3,3 @@
   import aboutUs from '../src/aboutus/aboutus'
   console.log("welcome")
   frontPage();
-  // menu();
-  // aboutUs();
