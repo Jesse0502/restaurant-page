@@ -13,11 +13,12 @@ body {
     text-align: left;
     margin-left: 15px;
     position: absolute;
-    margin-top: -5vh;
+    margin-top: -3vh;
     font-size: 10rem;
     color: #D7B398;
     font-weight: bolder;
-    -webkit-text-stroke: 4px #1D1D1D;
+    -webkit-text-stroke: 3px #1D1D1D;
+    cursor: pointer;
 }
 
 .banner {
@@ -48,7 +49,7 @@ body {
     font-size: 6rem;
     color: #D7B398;
     font-weight: bolder;
-    -webkit-text-stroke: 4px #1D1D1D;
+    -webkit-text-stroke: 2.5px #1D1D1D;
 }
 
 .navbar-list {
@@ -60,13 +61,13 @@ body {
 }
 
 .navbar-items {
-    font-size: 1.7em;
-    padding-top: -15px;
+    font-size: 2em;
+    padding-top: -25px;
     color: #D7B398;
 }
 
 .navbar-items:hover {
-    font-size: 1.75em;
+    font-size: 2.1em;
     cursor: pointer;
     text-decoration: underline;
 }
@@ -110,12 +111,15 @@ body {
     text-align: center;
     font-size: 2em;
     margin-bottom: 15vh;
+    color: #1D1D1D;
 }
 
 .Buffetsection1 {
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 15vh;
+    gap: 10vh;
+
 }
 
 .sectionimg1 {
@@ -129,6 +133,7 @@ body {
     font-size: 1.9em;
     padding-top: 20px;
     font-weight: 500;
+    color: #1D1D1D;
 }
 
 .Buffetsection2 {
@@ -149,6 +154,7 @@ body {
     font-size: 1.9em;
     padding-top: 20px;
     font-weight: 500;
+    color: #1D1D1D;
 }
 
 .reservationLogoDiv {
@@ -173,6 +179,7 @@ body {
 .labels {
     font-size: 1.5em;
     font-weight: 400;
+    color: #1D1D1D;
 }
 
 .inputs {
@@ -314,10 +321,230 @@ body {
 
 .subText {
     text-align: center;
+    color: #1D1D1D;
 }
 
 .aboutUsDescription {
     margin: auto;
     width: 90%;
     font-size: 1.3em;
+    color: #1D1D1D;
+}
+
+.toggleMenu{
+    float: right;
+    background-color: #D7B398;
+    color: transparent;
+    border: none;
+    visibility: hidden;
+}
+
+@media all and (max-width: 800px) {
+    .heading {
+        text-align: left;
+        margin-left: 15px;
+        position: absolute;
+        margin-top: -0vh;
+        font-size: 3.5rem;
+        color: #D7B398;
+        font-weight: bolder;
+        -webkit-text-stroke: 3px #1D1D1D;
+        cursor: pointer;
+    }
+    .logo-scroll {
+        text-align: left;
+        margin-left: 15px;
+        position: absolute;
+        font-size: 3.5rem;
+        color: #D7B398;
+        font-weight: bolder;
+        -webkit-text-stroke: 2px #1D1D1D;
+    }
+  
+    .navbar-list {
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+        float: right;
+        padding-right: 20px;
+    }
+    .navbar-items {
+        font-size: 1em;
+        padding-top: -50px;
+        color: #D7B398;
+        visibility: hidden;
+    }
+    .navbar-items:hover {
+        font-size: 1.75em;
+        cursor: pointer;
+        text-decoration: underline;
+    } 
+    
+    
+.toggleMenu{
+    position: relative;
+
+    float: right;
+    background-color: #D7B398;
+    color: transparent;
+    border: none;
+    visibility: visible;
+    margin: 20px 30px 0px 0px;
+    padding: 5px 10px 5px 10px;
+}
+
+.toggleMenuDiv{ 
+    height: 150px; 
+}
+
+.toggleItems{
+    height: 100px;
+    position: absolute;
+    margin-top: 80px;
+    background-color: #1D1D1D;
+    width: 100%;
+}
+
+.front-description {
+    float: right;
+    text-align: right; 
+    z-index: 11;
+    width: 300px;
+    height: 0px;
+}
+
+.front-description-txt {
+    margin-top: 40vh; 
+    position: relative;
+    background-color: #1D1D1D;
+    font-size: 1.8em;
+    color: #D7B398;
+    -webkit-text-stroke: 1px #1D1D1D;
+    padding-right: 30px;
+}
+.banner {
+    width: 100%;
+    height: 60vh;
+    /* position: relative; */
+    /* margin-top: -38.5vh; */
+}
+.buffetBanner {
+    width: 100%;
+    height: 80px;
+    background-color: #1D1D1D;
+    color: #D7B398;
+    font-size: 2.3em;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.buffetDiv {
+    margin: auto;
+    width: 90%;
+}
+
+.buffetDivHeading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 5vh;
+    color: #1D1D1D;
+}
+
+.Buffetsection1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh; 
+    color: #1D1D1D;
+}
+
+.sectionimg1 {
+    /* height: 25vh; */
+    width: 100%;
+    height: 45vh;
+}
+
+.sectionText1 {
+    width: 100%;
+    font-size: 1.6em;
+    margin-top: -50px;
+    font-weight: 500;
+}
+
+.Buffetsection2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh; 
+    color: #1D1D1D;
+}
+
+.sectionimg2 {
+    /* height: 25vh; */
+    width: 100%;
+    height: 45vh;
+}
+
+.sectionText2 {
+    width: 100%;
+    font-size: 1.6em;
+    margin-top: -50px;
+    font-weight: 500;
+}
+.reservationLogoDiv {
+    background-color: #1D1D1D;
+    color: #D7B398;
+    height: 90px;
+}
+
+.reservationHeading {
+    text-align: center;
+    font-size: 2.6em;
+    padding-top: 14px;
+}
+
+.reservationFormDiv {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+}
+
+.labels {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #1D1D1D;
+}
+
+.inputs {
+    height: 5vh;
+    margin-bottom: 3vh;
+    background-color: #FCFFEA;
+    border: 1px solid #1D1D1D;
+}
+
+.reservation-submit {
+    float: right;
+    width: 12vh;
+    border: none;
+    background-color: transparent;
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
+.reservation-submit:hover {
+    animation-name: btnHover;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
+@keyframes btnHover {
+    0% {
+        opacity: 0;
+        margin-left: -20px;
+    }
+    100% {
+        opacity: 1;
+        margin-left: 0px;
+    }
+}
 }
