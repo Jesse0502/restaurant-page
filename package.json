@@ -1,0 +1,25 @@
+{
+    "name": "y",
+    "version": "1.0.0",
+    "description": "the odin project",
+    "main": "y",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jesse0502/restaurant-page.git"
+    },
+    "author": "myself",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Jesse0502/restaurant-page/issues"
+    },
+    "homepage": "https://github.com/Jesse0502/restaurant-page#readme",
+    "devDependencies": {
+        "raw-loader": "^4.0.2",
+        "webpack": "^5.45.1",
+        "webpack-cli": "^4.7.2"
+    }
+}
